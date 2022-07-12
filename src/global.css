@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: #262626;
+  color:#fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.shadow {
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+.border-radius {
+  border-radius: 1rem;
+}
