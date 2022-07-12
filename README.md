@@ -1,4 +1,11 @@
-# Vue 3 + TypeScript + Vite
+# Vue calculator
+
+## A vue 3 + TypeScript calculator with cypress testing
+
+A small vue 3 project to learn vue 3 together with typescript. As well as testing out cypress with github actions for CI/CD
+
+
+# Vue 3 + TypeScript + Vite (Default template)
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
