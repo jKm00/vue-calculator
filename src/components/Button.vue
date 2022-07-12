@@ -12,8 +12,8 @@
     (e: 'click', value: number | string): void
     (e: 'reset', value: string): void
     (e: 'toggle', value: string): void
-    (e: 'changeOperation', value: Operation): void
     (e: 'calc', value: string): void
+    (e: 'changeOperation', value: string | Operation): void
   }
 
 

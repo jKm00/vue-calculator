@@ -46,7 +46,7 @@
     display.value = (-parseFloat(display.value)).toString()
   }
 
-  const changeOperation = (e: Operation) => {
+  const changeOperation = (e: Operation | string) => {
     if (display.value !== '0') {
       prevCalc.value = display.value
       display.value = '0'
@@ -90,7 +90,7 @@
     log.value = []
   }
 
-  const calculateDirect = (e: Operation) => {
+  const calculateDirect = (e: Operation | string) => {
     if (e === Operation.ROOT) {
       const result = Math.sqrt(parseFloat(display.value))
 

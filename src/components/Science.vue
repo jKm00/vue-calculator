@@ -4,9 +4,9 @@
   import Button from '@/components/Button.vue';
 
   interface ScienceEmits {
-    (e: 'changeOperation', value: Operation ): void
+    (e: 'changeOperation', value: Operation | string ): void
     (e: 'display', value: number | string ): void
-    (e: 'calcualteDirect', value: Operation): void
+    (e: 'calcualteDirect', value: Operation | string): void
   }
 
   const emit = defineEmits<ScienceEmits>()
@@ -17,11 +17,11 @@
     emit('display', e)
   }
 
-  const changeOperation = (e: Operation) => {
+  const changeOperation = (e: Operation | string) => {
     emit('changeOperation', e)
   }
 
-  const calculateDirect = (e: Operation) => {
+  const calculateDirect = (e: Operation | string) => {
     emit('calcualteDirect', e)
   }
 </script>

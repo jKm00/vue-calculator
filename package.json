@@ -3,11 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
+    "start": "http-server",
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:record": "cypress run --record --key",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "http-server": "^14.1.1",
     "vue": "^3.2.25",
     "vue-router": "^4.1.2"
   },
