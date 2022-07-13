@@ -1,7 +1,8 @@
 describe('Logic tests', () => {
   // Test setup
   beforeEach(() => {
-    cy.visit('http://localhost:3000/calculator')
+    cy.visit('http://localhost:3000')
+    cy.get('nav li:nth-child(2) a').click()
   })
 
   it('Sum two numbers', () => {
@@ -35,7 +36,8 @@ describe('Logic tests', () => {
 
 describe('UI tests', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000/calculator')
+    cy.visit('http://localhost:3000')
+    cy.get('nav li:nth-child(2) a').click()
   })
 
   it('Check elements', () => {
