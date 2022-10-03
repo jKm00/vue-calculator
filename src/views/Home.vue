@@ -3,6 +3,7 @@
 <template>
   <h1>Home</h1>
   <h2>Welcome to the home page of my calculator</h2>
+  <h3>Another subtitle</h3>
 </template>
 
 <style lang="scss"></style>
